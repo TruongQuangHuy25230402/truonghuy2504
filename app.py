@@ -85,7 +85,7 @@ app.layout = html.Div(
                             html.H4(
                                 "DOANH SỐ SALE",
                             ),
-                            "{:.2f}".format(sales) +"$"
+                            "{:.2f}".format(sales) + " "+ "$"
                         ],
                         className="label"
                     ), className="card c1"
@@ -96,7 +96,7 @@ app.layout = html.Div(
                             html.H4(
                                 "LỢI NHUẬN",
                             ),
-                            "{:.2f}".format(profit) +"$"
+                            "{:.2f}".format(profit) + " "+ "$"
                         ],
                         className="label"
                     ), className="card c1"
@@ -107,7 +107,7 @@ app.layout = html.Div(
                             html.H4(
                                 "TOP DOANH SỐ",
                             ),
-                            "{:.2f}".format(topSales) +"$"
+                            "{:.2f}".format(topSales) + " "+ "$"
                         ],
                         className="label"
                     ), className="card c1"
@@ -118,7 +118,7 @@ app.layout = html.Div(
                             html.H4(
                                 "TOP LỢI NHUẬN",
                             ),
-                            "{:.2f}".format(topProfit) +"$"
+                            "{:.2f}".format(topProfit) + " "+ "$"
                         ],
                         className="label"
                     ), className="card c1"
